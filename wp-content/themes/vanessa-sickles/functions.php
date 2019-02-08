@@ -22,6 +22,23 @@ function main_scripts() {
 
 add_action( 'wp_enqueue_scripts', 'main_scripts' );
 
+// Creates Portfolio Post Type
+function create_post_type() {
+	register_post_type( 'portfolio',
+	  array(
+		'labels' => array(
+		  'name' => __( 'Portfolio' ),
+		  'singular_name' => __( 'Work' ),
+		),
+		'public' => true,
+		'has_archive' => true,
+		'menu_icon' => 'dashicons-format-gallery',
+		'menu_position' => 5
+	  )
+	);
+  }
+  add_action( 'init', 'create_post_type' );
+
 // Changes the [...] default readmore
 function excerpt_more( $more ) {
     return '…';

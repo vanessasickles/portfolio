@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin:0;
+    padding:0;
+
+    background-color: #696969;
+}
+
+.container {
+    max-width:1400px;
+    margin:auto;
+    width:100%;
+
+    @include screen(md) {
+        width:90%;
+    }
+}
