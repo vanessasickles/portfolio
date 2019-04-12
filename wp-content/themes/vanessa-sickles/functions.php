@@ -6,7 +6,7 @@ add_theme_support( 'menus' );
 add_theme_support( 'post-thumbnails' );
 
 // Creates Image Sizes
-//add_image_size( 'example', 300, 250, true );
+add_image_size( 'featured-work', 300, 425, true );
 
 // Register main navigation menus
 register_nav_menu('main_navigation', 'Main Navigation');
@@ -33,7 +33,8 @@ function create_post_type() {
 		'public' => true,
 		'has_archive' => true,
 		'menu_icon' => 'dashicons-format-gallery',
-		'menu_position' => 5
+		'menu_position' => 5,
+		'supports' => array('thumbnail')
 	  )
 	);
   }
