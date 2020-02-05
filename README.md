@@ -1,6 +1,6 @@
-# URPG WordPress Theme - 2020
-This is the repository for the building of the new pokemonurpg.com WordPress theme.
+# Vanessa Sickles - Portfolio Site
+Hi! You've stumbled upon the repository for my portfolio site. This is currently a Work in Progress!
 
-## Setup (WIP)
-1. Clone this repository to your desired folder using [Git](https://git-scm.com/), or a GUI for Git such as the [GitHub Desktop](https://desktop.github.com/) client.
-2. Set up your local environment through your desired method. I use [MAMP](https://www.mamp.info/en/mamp/), but you may use whatever you prefer.
+* **Want to see what this is replacing?** Check out [the portfolio site I'm upgrading from](https://vanessasickles.com)!
+* **Have a job I might be interested in?** Contact me on [LinkedIn](https://www.linkedin.com/in/vanessasickles/).
+* **Want to see what I use my design eye for?** Browse my [design work](https://www.behance.net/vanessasickles).
