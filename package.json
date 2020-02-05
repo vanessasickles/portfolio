@@ -1,7 +1,7 @@
 {
-  "name": "urpg-theme-2020",
+  "name": "vanessa-sickles-portfolio",
   "version": "1.0.0",
-  "description": "The package.json for the URPG theme.",
+  "description": "The package.json for my portfolio site.",
   "main": "index.js",
   "dependencies": {
     "tailwindcss": "^1.1.4"
@@ -24,12 +24,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vanessasickles/urpg-theme-2020.git"
+    "url": "git+https://github.com/vanessasickles/portfolio.git"
   },
   "author": "Vanessa Sickles <vanessa.sickles@gmail.com> (https://vanessasickles.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vanessasickles/urpg-theme-2020/issues"
+    "url": "https://github.com/vanessasickles/portfolio/issues"
   },
-  "homepage": "https://github.com/vanessasickles/urpg-theme-2020#readme"
+  "homepage": "https://github.com/vanessasickles/portfolio#readme"
 }
