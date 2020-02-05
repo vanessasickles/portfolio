@@ -17,4 +17,4 @@
 </head>
 
 <body>
-    <?php get_template_part( 'navigation' ) ?>
+  <?php get_template_part( 'navigation' ) ?>

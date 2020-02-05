@@ -2,25 +2,17 @@ module.exports = {
   theme: {
     colors: {
       white: '#FFFFFF',
-      gold: '#C6A521',
-      blue: {
-        'dark': '#003C5A',
-        'default': '#0475AE',
-      },
+      blue: '#1E90FF',
       grey: {
-        'dark': '#474747',
         'default': '#707070',
-        'light': '#BABABA',
-        'lighter': '#F5F5F5'
+        'light': '#A3A3A3',
       }
     },
 
     extend: {
       fontFamily: {
-        'sans': ['Nunito', 'Arial']
+        'sans': ['Raleway', 'Helvetica', 'Arial']
       }
     }
   },
-  variants: {},
-  plugins: []
 }

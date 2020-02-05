@@ -10,10 +10,10 @@ function create_post_type() {
 		'public' => true,
 		'has_archive' => true,
 		'menu_icon' => 'dashicons-format-gallery',
-		'menu_position' => 5,
+		'menu_position' => 2,
 		'supports' => array('thumbnail')
 	  )
 	);
   }
-  
+
   add_action( 'init', 'create_post_type' );
